@@ -41,3 +41,9 @@ Access the App: You can now access your app by navigating to http://localhost:30
 Please replace `innos:v1.0` with your preferred Docker image name, and ensure that the port number `3000` matches the one specified in the `Dockerfile` and the `docker run` command.
 
 ```
+
+## Run without docker\*
+
+```
+yarn install && yarn dev
+```
